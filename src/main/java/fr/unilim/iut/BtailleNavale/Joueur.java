@@ -1,8 +1,12 @@
-package fr.unilim.iut.BtailleNavale;
 
 public class Joueur {
-	public static void main( String[] args )
-    {
-        System.out.println( "je ne sais pas si ça marche lucie" );
-    }
+	private String nom;
+	private int score;
+	private boolean perdant;
+	
+	public Joueur(String nom) {
+		this.nom = nom;
+		this.score = 000;
+		this.perdant = true;
+	}
 }
